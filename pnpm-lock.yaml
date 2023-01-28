@@ -4,6 +4,7 @@ specifiers:
   '@types/react': ^18.0.0
   '@types/react-dom': ^18.0.0
   '@umijs/plugins': ^4.0.47
+  jotai: ^1.13.1
   prettier: ^2
   prettier-plugin-organize-imports: ^2
   prettier-plugin-packagejson: ^2
@@ -12,6 +13,7 @@ specifiers:
   umi: ^4.0.47
 
 dependencies:
+  jotai: 1.13.1_6ppozjj7ve2zrsy5dwx4etvjce
   umi: 4.0.47_bvigcos3cqed6nhectn2rrxm6u
 
 devDependencies:
@@ -2922,7 +2924,7 @@ packages:
       '@types/history': 4.7.11
       '@types/react': 18.0.27
       '@types/react-router': 5.1.20
-      redux: 3.7.2
+      redux: 4.2.0
     dev: true
 
   /@types/react-router/5.1.20:
@@ -6673,6 +6675,50 @@ packages:
       jest-util: 29.4.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
+    dev: false
+
+  /jotai/1.13.1_6ppozjj7ve2zrsy5dwx4etvjce:
+    resolution: {integrity: sha512-RUmH1S4vLsG3V6fbGlKzGJnLrDcC/HNb5gH2AeA9DzuJknoVxSGvvg8OBB7lke+gDc4oXmdVsaKn/xDUhWZ0vw==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      '@babel/core': '*'
+      '@babel/template': '*'
+      jotai-devtools: '*'
+      jotai-immer: '*'
+      jotai-optics: '*'
+      jotai-redux: '*'
+      jotai-tanstack-query: '*'
+      jotai-urql: '*'
+      jotai-valtio: '*'
+      jotai-xstate: '*'
+      jotai-zustand: '*'
+      react: '>=16.8'
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      '@babel/template':
+        optional: true
+      jotai-devtools:
+        optional: true
+      jotai-immer:
+        optional: true
+      jotai-optics:
+        optional: true
+      jotai-redux:
+        optional: true
+      jotai-tanstack-query:
+        optional: true
+      jotai-urql:
+        optional: true
+      jotai-valtio:
+        optional: true
+      jotai-xstate:
+        optional: true
+      jotai-zustand:
+        optional: true
+    dependencies:
+      '@babel/core': 7.20.12
+      react: 16.14.0
     dev: false
 
   /js-sdsl/4.3.0:
